@@ -1,0 +1,54 @@
+{
+    "name": "InputSystemAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e362b75c-cd8a-4588-8df1-f6562a1ca8f4",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "0c298866-49f2-4d73-b7b1-c54ab0d142bf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WASD",
+                    "type": "Button",
+                    "id": "d125ea12-f7fb-49bc-b963-32a3d2e9c75e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7f92263f-ecca-4282-96e6-497e66f4dcf8",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f48b5e03-61e1-455d-ab72-605cdccfcdfe",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
